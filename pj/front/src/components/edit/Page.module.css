@@ -1,0 +1,46 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 5px 5px 11px 4px grey;
+  gap: 1rem;
+  border-radius: 5px;
+  height: 400px;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.elements {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.edit {
+  background-color: green;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.delete {
+  cursor: pointer;
+  background-color: red;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+}
